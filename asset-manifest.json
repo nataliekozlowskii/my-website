@@ -1,20 +1,22 @@
 {
   "files": {
-    "main.css": "/my-website/static/css/main.bc59b00b.css",
-    "main.js": "/my-website/static/js/main.f0dd9fb3.js",
+    "main.css": "/my-website/static/css/main.715a53e8.css",
+    "main.js": "/my-website/static/js/main.21a6ac94.js",
     "static/js/605.7847d49a.chunk.js": "/my-website/static/js/605.7847d49a.chunk.js",
     "static/js/453.2291aba8.chunk.js": "/my-website/static/js/453.2291aba8.chunk.js",
+    "static/media/battery_box_and_cell_layout.png": "/my-website/static/media/battery_box_and_cell_layout.6d5563736304a29e6e5f.png",
+    "static/media/individual_battery_module.png": "/my-website/static/media/individual_battery_module.2c60cbeca037418d7556.png",
     "static/media/ANN_model_results.png": "/my-website/static/media/ANN_model_results.26548e37e161ac9d0bac.png",
     "static/media/headshot.jpg": "/my-website/static/media/headshot.86da87f9f42915e59a80.jpg",
-    "static/media/EECS @ MIT - Natalie Kozlowski.pdf": "/my-website/static/media/EECS @ MIT - Natalie Kozlowski.8157ad8e8a76271ca9cc.pdf",
+    "static/media/EECS @ MIT - Natalie Kozlowski.pdf": "/my-website/static/media/EECS @ MIT - Natalie Kozlowski.d3b291f6632ab048af14.pdf",
     "index.html": "/my-website/index.html",
-    "main.bc59b00b.css.map": "/my-website/static/css/main.bc59b00b.css.map",
-    "main.f0dd9fb3.js.map": "/my-website/static/js/main.f0dd9fb3.js.map",
+    "main.715a53e8.css.map": "/my-website/static/css/main.715a53e8.css.map",
+    "main.21a6ac94.js.map": "/my-website/static/js/main.21a6ac94.js.map",
     "605.7847d49a.chunk.js.map": "/my-website/static/js/605.7847d49a.chunk.js.map",
     "453.2291aba8.chunk.js.map": "/my-website/static/js/453.2291aba8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bc59b00b.css",
-    "static/js/main.f0dd9fb3.js"
+    "static/css/main.715a53e8.css",
+    "static/js/main.21a6ac94.js"
   ]
 }
