@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from "react";
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import { HashRouter as Router, Routes, Route, Link } from "react-router-dom";
 import * as THREE from "three";
 
 import About from "./pages/About";
@@ -82,13 +82,9 @@ function App() {
 
         {/* Page Content */}
         <Routes>
-          <Route path="/" element={null} />
+          <Route path="/" element={<About />} />
           <Route path="/about" element={<About />} />
-
-          {/* Projects sub-pages */}
           <Route path="/projects" element={<Projects/>} />
-
-          {/* Research sub-pages */}
           <Route path="/research" element={<Research />} />
         </Routes>
 

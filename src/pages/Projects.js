@@ -1,4 +1,6 @@
 import React from "react";
+import battery_box from "../assets/battery_box_and_cell_layout.png"; 
+import module from "../assets/individual_battery_module.png"; 
 
 export default function Research() {
   return (
@@ -9,16 +11,26 @@ export default function Research() {
         <h3>MIT Solar Electric Vehicle Team</h3>
         <p><strong>Skills:</strong> SOLIDWORKS, Ansys, Altium Designer</p>
         <br></br>
-        <ul className="research-list">
-          <li>
-            Leading manufacturing of 768 cell Li-ion battery pack to power 
-            multi-occupant solar electric vehicle to compete in American Solar Challenge 2026.
-          </li>
-          <li>
-            Designed and validated battery cooling system, running CFD simulations in 
-            Ansys to verify batteries kept below their maximum charging temperature in worst-case scenarios.
-          </li>
-        </ul>
+        <p>
+          I'm on the Electrical Engineering subteam of MIT's Solar Electric Vehicle Team,
+          where I am working on a 768 cell Li-ion battery module to power a multi-occupant
+          solar electric vehicle that will compete in the American Solar Challenge in 2026.
+          I led computational fluid dynamics simulations in Ansys to model the thermal performance
+          of our battery and verify module safety under peak charging conditions, and I am collaborating
+          across subteams to help integrate the battery with other subsystems.
+        </p>
+        <h4>CAD of entire battery box (left) and overall cell layout (right)</h4>
+        <img 
+          src={battery_box} 
+          alt="Image of entire battery box CAD and cell layout" 
+          className="research-image"
+        />
+        <h4>Individual battery module CAD</h4>
+        <img 
+          src={module} 
+          alt="Image of individual battery module" 
+          className="research-image"
+        />
       </section>
 
       {/* Project 2 */}
@@ -28,14 +40,9 @@ export default function Research() {
         <p><strong>Skills:</strong> Python, Git</p>
         <br></br>
         <p>
-          <ul className="research-list">
-          <li>
-            Developed Python software to automate processing of lab data.
-          </li>
-          <li>
-            Verified software tools through testing and analysis of 5 new biomedical assays.
-          </li>
-        </ul>
+          I developed workflows in Python to automate data analysis on a new ELISA instrument in the lab,
+          helping make assay validation more efficient and supporting the expansion of a hormone panel
+          by 5 additional biomarkers.
         </p>
       </section>
 
@@ -46,53 +53,33 @@ export default function Research() {
         <p><strong>Skills:</strong> C++, signal processing</p>
         <br></br>
         <p>
-          <ul className="research-list">
-          <li>
-            Built program for real-time audio capture, analysis, and visualization.
-          </li>
-          <li>
-            Implemented Fast Fourier Transform with Hanning windowing to extract spectral features.
-          </li>
-        </ul>
+          I built a program for real-time audio capture, analysis, and visualization using C++,
+          implementing a Fast Fourier Transform algorithm with Hanning windowing to extract spectral
+          features and implemented signal processing techniques like audio equalization for audio
+          processing.
         </p>
         <br></br>
         <h3>Deep Learning for EMG Signal Processing</h3>
-        <p><strong>Skills:</strong> Python, ML (PyTorch, scikit-learn), signal processing</p>
+        <p><strong>Skills:</strong> Python, machine learning (PyTorch, scikit-learn), signal processing</p>
         <br></br>
         <p>
-          <ul className="research-list">
-          <li>
-            Trained Convolutional Neural Network on public dataset of 15,000+ EMG records.
-          </li>
-          <li>
-            Applied deep learning to improve biomedical signal interpretation.
-          </li>
-        </ul>
+          I trained a Convolutional Neural Network on a public dataset of 15,000+ EMG records
+          for gesture classification.
         </p>
         <br></br>
         <h3>ESP32-based Servo System with Biomechanical Actuation</h3>
         <p><strong>Skills:</strong> C, embedded programming, ESP-IDF framework</p>
         <br></br>
         <p>
-          <ul className="research-list">
-          <li>
-            Designed a servo control system interfacing an ESP32 with a flex sensor for biomechanical actuation.
-          </li>
-          <li>
-            Verified system performance through hardware testing.
-          </li>
-        </ul>
+          I designed a servo control system, interfacing an ESP32 with a flex sensor
+          for biomechanical actuation and verifying system performance via hardware testing.
         </p>
         <br></br>
         <h3>Personal Website</h3>
         <p><strong>Skills:</strong> React, JavaScript, HTML/CSS</p>
         <br></br>
         <p>
-          <ul className="research-list">
-          <li>
-            Developed this portfolio website using React.
-          </li>
-        </ul>
+          I developed this personal website using React!
         </p>
       </section>
     </div>
